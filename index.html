@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peeyush Saha | Portfolio</title>
+    <meta name="description" content="Portfolio of Peeyush Saha - Computer Science Engineering Student and Developer.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">PS.</a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+                <li><a href="#contact" class="cta-btn">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="hero-content scroll-reveal">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Peeyush Saha</h1>
+            <h2 class="hero-headline">Engineering Student & Tech Enthusiast</h2>
+            <div class="hero-location"><i class="fas fa-map-marker-alt"></i> Bhopal, Madhya Pradesh, India</div>
+            <div class="hero-actions">
+                <a href="#projects" class="btn primary-btn">View Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">About Me</h2>
+            <div class="about-content scroll-reveal">
+                <p id="about-text">I am a Computer Science Engineering student...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Skills</h2>
+            <div class="skills-grid" id="skills-container">
+                <!-- Skills injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Experience & Education</h2>
+            <div class="timeline" id="experience-container">
+                <!-- Experience injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Projects</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects injected via JS -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Certifications</h2>
+            <ul class="cert-list" id="cert-container">
+                <!-- Certs injected via JS -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container scroll-reveal">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-desc">Have a project in mind or just want to say hi?</p>
+            <div class="social-links" id="social-container">
+                <!-- Socials injected via JS -->
+            </div>
+            <button id="contact-google-form-btn" class="btn primary-btn large-btn">
+                Open Contact Form <i class="fas fa-external-link-alt"></i>
+            </button>
+            <div id="form-container"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Peeyush Saha. Built with <i class="fas fa-code"></i> & <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "name": "Peeyush Saha",
+  "headline": "Attended Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal",
+  "location": "Bhopal, Madhya Pradesh, India",
+  "email": "piyushsaha2115@gmail.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/peeyush-saha-b98764340",
+    "instagram": "",
+    "topmate": "",
+    "github": ""
+  },
+  "about": "I am a Computer Science Engineering student with a strong interest in technology, programming, and problem-solving. As a beginner in this field, I’m actively learning the fundamentals of coding, data structures, and software development. I enjoy exploring new technologies, continuously improving my skills through hands-on practice and learning from others. I am excited to grow in the field of computer science and contribute to real-world solutions.",
+  "skills": [
+    "Engineering",
+    "Technology",
+    "Programming",
+    "Problem-solving",
+    "Data Structures",
+    "Software Development"
+  ],
+  "experience": [],
+  "projects": [],
+  "education": [
+    {
+      "title": "Bachelor of Technology - BTech, Computer Science",
+      "company": "TIT Technocrats Group of Institutions, Bhopal",
+      "dates": "September 2024 - September 2028",
+      "bullets": []
+    },
+    {
+      "title": "Attended",
+      "company": "Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal",
+      "dates": "2024",
+      "bullets": []
+    }
+  ],
+  "certifications": [
+    "AI Appreciate Badge - AI For All",
+    "AI Aware Badge - AI For All"
+  ]
+}
